@@ -57,7 +57,7 @@ cd path_to_directory
 1. Start the ARP server:
 
 ```bash
-python arp_server.py
+python server.py
 ```
 
 After running the command, you should see the message "ARP server is listening...".
@@ -65,7 +65,7 @@ After running the command, you should see the message "ARP server is listening..
 2. In a separate terminal, start the ARP client:
 
 ```bash
-python arp_client.py
+python client.py
 ```
 
 You'll be prompted with "Enter IP to ARP for:".
