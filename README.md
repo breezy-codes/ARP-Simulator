@@ -4,10 +4,26 @@
 
 This project provides a simple client-server model to simulate the ARP (Address Resolution Protocol) process in a local network environment. ARP is a protocol used to find the hardware (MAC) address of a device from its IP address.
 
-In this simulation:
+### Network Dictionary
 
-- The server maintains a hardcoded mapping of IP addresses to MAC addresses. 
-- The client can request the MAC address for a given IP. The server responds with the associated MAC or "Not Found" if the IP isn't in its list.
+To facilitate understanding and simulation, here's a sample network dictionary that represents a hypothetical local network with IP and MAC address pairs:
+
+```python
+NETWORK = {
+    '192.168.1.1': '00:0A:95:9D:68:16',
+    '192.168.1.2': '00:0A:95:9D:68:17',
+    '192.168.1.3': '00:0A:95:9D:68:18',
+    '192.168.1.4': '00:0A:95:9D:68:19',
+    '192.168.1.5': '00:0A:95:9D:68:1A',
+    '192.168.1.6': '00:0A:95:9D:68:1B',
+    '192.168.1.7': '00:0A:95:9D:68:1C',
+    '192.168.1.8': '00:0A:95:9D:68:1D',
+    '192.168.1.9': '00:0A:95:9D:68:1E',
+    '192.168.1.10': '00:0A:95:9D:68:1F',
+}
+```
+
+This dictionary plays a pivotal role in the ARP simulation where the server uses it to respond to MAC address queries for given IPs.
 
 ### Purpose
 
@@ -16,6 +32,7 @@ In this simulation:
 - Great for educational purposes, especially for those learning about networking and ARP operations.
 
 ### Getting Started
+https://youtu.be/A230IEK4OWA
 
 #### Requirements
 
