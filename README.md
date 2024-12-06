@@ -1,18 +1,29 @@
-## ARP Simulator Program
+# ARP Simulator Program
 
 <div align="center">
   <a href="https://www.linkedin.com/in/brianna-laird/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/linkedin.png" style="height: 35px;" alt="linkedin logo" />
+    </span>
   </a>
-  <a href="https://www.youtube.com/@Breezy-Codes" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=YouTube&logo=youtube&label=&color=FF0000&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="youtube logo" />
+  <a href="https://www.youtube.com/@Breezy-Codes/" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/youtube.png" style="height: 35px;" alt="youtube logo" />
+    </span>
   </a>
   <a href="https://briannalaird.com/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=My%20Portfolio&logo=portfolio&label=&color=8A2BE2&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="portfolio logo" />
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/portfolio.png" style="height: 35px;" alt="portfolio logo" />
+    </span>
+  </a>
+  <a href="https://orcid.org/0009-0005-9841-3691" target="_blank">
+    <span style="margin: 0 15px;">
+      <img src="https://github.com/breezy-codes/breezy-codes/blob/main/Figures/orc-id.png" style="height: 35px;" alt="ORC-ID" />
+    </span>
   </a>
 </div>
 
-### Introduction
+## Introduction
 
 This project provides a simple client-server model to simulate the ARP (Address Resolution Protocol) process in a local network environment. ARP is a protocol used to find the hardware (MAC) address of a device from its IP address.
 
@@ -44,6 +55,7 @@ This dictionary plays a pivotal role in the ARP simulation where the server uses
 - Great for educational purposes, especially for those learning about networking and ARP operations.
 
 ### Getting Started
+
 https://youtu.be/A230IEK4OWA
 
 #### Requirements
@@ -54,13 +66,13 @@ https://youtu.be/A230IEK4OWA
 
 1. Clone this repository:
 
-```
+```shell
 git clone [repository_link]
 ```
 
 2. Navigate to the project directory:
 
-```
+```shell
 cd path_to_directory
 ```
 
@@ -68,7 +80,7 @@ cd path_to_directory
 
 1. Start the ARP server:
 
-```bash
+```shell
 python server.py
 ```
 
@@ -76,7 +88,7 @@ After running the command, you should see the message "ARP server is listening..
 
 2. In a separate terminal, start the ARP client:
 
-```bash
+```shell
 python client.py
 ```
 
